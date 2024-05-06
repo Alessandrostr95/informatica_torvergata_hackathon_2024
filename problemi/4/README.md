@@ -38,3 +38,7 @@ Una matrice $A$ di dimensione `N x M` in cui ogni cella contiene un valore **int
 ## Output
 Un numero intero, la quantità di prodotto antimuffa sufficiente per eliminare la muffa dalle pareti.
 
+--------------
+
+| [Previous](../3/README.md) | [Next](../5/README.md) |
+| ----- | ----- |

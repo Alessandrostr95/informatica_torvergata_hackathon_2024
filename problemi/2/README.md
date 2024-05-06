@@ -32,3 +32,9 @@ In input si avrà un intero $K$ che rappresenta il costo giornaliero dello strum
 
 ## Output
 Il programma deve restituire il costo minimo dell'affitto delle attrezzature.
+
+
+-------------
+
+| [Previous](../1/README.md) | [Next](../3/README.md) |
+| ----- | ----- |

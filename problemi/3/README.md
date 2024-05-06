@@ -128,5 +128,7 @@ Una sequenza di `N` righe, ognuna contenente una stringa di `M` caratteri, rappr
 Il numero esatto di piastrelle necessarie per ricoprire il pavimento dell'edificio rappresentato dal blueprint.
 
 
+----------------------
 
-
+| [Previous](../2/README.md) | [Next](../4/README.md) |
+| ----- | ----- |

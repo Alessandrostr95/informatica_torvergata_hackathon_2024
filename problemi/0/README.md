@@ -17,3 +17,9 @@ Un inter $n$ $(1 \leq n \leq 10^9)$, il numero di secondi per cui la macchina di
 
 ## Output
 Un intero $x$ che rappresenta per quanti secondi Gigino deve premere l'acceleratore per coprire la massima distanza possibile.
+
+
+-----------
+
+| [Next](../1/README.md) |
+| ----- |
