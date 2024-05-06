@@ -3,7 +3,7 @@ Come secondo incarico, viene chiesto a Gigino di **piastrellare** i pavimenti di
 Per costruire PP3 è stato chiamato un famoso architetto che ha progettato un edificio in stile moderno, con delle forme e geometrie molto particolari.
 
 A Gigino vengono forniti i [blueprints](https://en.wikipedia.org/wiki/Blueprint) del nuovo edificio, che rappresenta la pianta dell'edificio vista dall'alto.
-Il blueprint è una griglia di dimensioni `N x M` in cui ogni cella può contenere il simbolo `.`, il quale rappresenta una cella vuota, oppure uno tra i simboli  `╔╗═║╚╝`, i quali rappresentano i muri dell'edificio.
+Il blueprint è una griglia di dimensioni `N x M` in cui ogni cella può contenere il simbolo `.`, il quale rappresenta una cella vuota, oppure uno tra i simboli  `╗═╔║╝╚`, i quali rappresentano i muri dell'edificio.
 
 Un esempio di blueprint è il seguente:
 ```

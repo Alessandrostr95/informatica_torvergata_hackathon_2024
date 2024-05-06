@@ -16,7 +16,7 @@ Il monitor del sistema idraulico comunica che sono disponibili solo $t$ minuti p
 Gigino deve agire velocemente: deve aprire le valvole di sfogo dei nodi per rilasciare quanta più pressione possibile entro i prossimi $t$ minuti.
 
 Gigino sa che aprire una valvola di sfogo richiede un minuto, e che spostarsi da un nodo al suo vicino richiede un minuto.
-Inoltre, se apre la valvola di sfogo del nodo $i$ al tempo $y \leq t$, essa rilascerà una quantità di pressione pari a $P_i \cdot (t - y)$.
+Inoltre, se apre la valvola di sfogo del nodo $i$ al tempo $y \leq t$, essa rilascerà una quantità di pressione pari a $P_i \cdot (t - y - 1)$ ($-1$ perché spendo un minuto per aprire la valvola).
 
 Un esempio di come potrebbe essere il sistema idraulico di Sogene è il seguente:
 ```
@@ -61,7 +61,7 @@ Gigino non fa nulla.
 ```
 
 In questo caso, Gigino ha rilasciato $75$ unità di pressione in $7$ minuti.
-E` possibile vedere che si può fare meglio.
+E' possibile vedere che si può fare meglio.
 Per esempio, Gigino avrebbe potuto aprire in ordine le valvole sui nodi 0, 2 e 1, rilasciando $79$ unità di pressione in $7$ minuti.
 
 ```

@@ -24,3 +24,4 @@ Aiuta il nostro Gigino Amatino a dimostrare che anche uno che ha preferito la pa
 - [Problema 2](problemi/2/README.md)
 - [Problema 3](problemi/3/README.md)
 - [Problema 4](problemi/4/README.md)
+- [Problema 5](problemi/5/README.md)

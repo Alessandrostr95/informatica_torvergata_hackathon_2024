@@ -10,13 +10,15 @@ SEGACCIO 3 4 7
 MARTELLONE 10 5 10
 ```
 In questo caso è richiesto di:
-- affittare il MARTELLONE per dal giorno 1 al giorno 3 al prezzo di 10 euro al giorno, e dal giorno 7 al giorno 10 al prezzo di 10 euro al giorno.
-- affittare il TRAPANO per dal giorno 1 al giorno 5 al prezzo di 5 euro al giorno.
-- affittare il SEGACCIO per dal giorno 4 al giorno 7 al prezzo di 3 euro al giorno.
+- affittare il MARTELLONE dal giorno 1 al giorno 3 al prezzo di 10 euro al giorno, e dal giorno 5 al giorno 10 al prezzo di 10 euro al giorno.
+- affittare il TRAPANO dal giorno 1 al giorno 5 al prezzo di 5 euro al giorno.
+- affittare il SEGACCIO dal giorno 4 al giorno 7 al prezzo di 3 euro al giorno.
 
 Il costo totale dell'affitto è quindi di $10 \times 3 + 5 \times 5 + 3 \times 4 + 10 \times 6 = 127$ euro.
 
-Esiste però l'opportunità di affittare uno **strumento universale** che può sostituire uno qualsiasi degli attrezzi. Lo strumento universale ha un costo giornaliero elevato $K$, ma se affittato in maniera corretta può portare ad un risparmio.
+Esiste però l'opportunità di affittare uno **strumento universale** che può sostituire uno qualsiasi degli attrezzi.
+Lo strumento universale ha un costo giornaliero di $K$, e se affittato il giorno $i$ può essere usato al posto di **tutti** gli strumenti necessari il giorno $i$.
+Quindi, se affittato opportunamente può portare ad un risparmio.
 
 Per esempio, supponiamo che il costo dello strumento universale sia $K = 15$.
 Nell'esempio precedente, se Gigino affitta lo strumento universale il giorno $5$, il costo complessivo sarà di $10 \times 3 + 5 \times 4 + 3 \times 3 + 10 \times 5 + 15 \times 1 = 124$ euro, risparmiando quindi $3$ euro.
