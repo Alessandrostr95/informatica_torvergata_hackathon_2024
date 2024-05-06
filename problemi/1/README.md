@@ -6,7 +6,7 @@ Infatti non ricorda il codice di sblocco per il suo armadietto in cui ha riposto
 Per fortuna il capo di Gigino ha preparato dei bigliettini con degli indizi per aiutarlo a ricordare il codice di sblocco.
 Sul bigliettino di Gigino c'è scritto qualcosa in un linguaggio a lui **incomprensibile**.
 
-$$\vert \{ X,Y,Z \in \mathbb{N} \setminus \{0\} : XY + Z = K \} \vert$$
+$$\vert \lbrace X,Y,Z \in \mathbb{N} \setminus \{0\} : XY + Z = K \rbrace \vert$$
 
 Gigino ricorda il valore di $K$, ma non riesce a capire cosa significhi il resto del bigliettino.
 Aiuta Gigino a capire cosa significhi il bigliettino e a trovare il codice di sblocco per il suo armadietto.
