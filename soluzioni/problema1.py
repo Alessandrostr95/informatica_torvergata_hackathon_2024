@@ -6,7 +6,6 @@ class Solution:
     input_folder = os.path.join("soluzioni", "input", "1")
     output_folder = os.path.join("soluzioni", "output", "1")
 
-
     @staticmethod
     def solve(K: int) -> int:
         """

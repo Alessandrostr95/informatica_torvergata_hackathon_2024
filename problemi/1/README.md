@@ -1,4 +1,8 @@
 # Problema 1 (*Gigino smemorato*)
+
+| **Difficoltà** | 🔥🔥 |
+|:--------------:|:----:|
+
 Avete aiutato Gigino a non arrivare in ritardo a lavoro, ma purtroppo Gigino oltre che ritardatario è anche molto smemorato.
 Infatti non ricorda il codice di sblocco per il suo armadietto in cui ha riposto la tuta e il casco da lavoro.
 (Anche se Gigino non è molto sveglio, sa bene che la sicurezza viene prima di tutto!)
@@ -12,7 +16,7 @@ Gigino ricorda il valore di $K$, ma non riesce a capire cosa significhi il resto
 Aiuta Gigino a capire cosa significhi il bigliettino e a trovare il codice di sblocco per il suo armadietto.
 
 ## Input
-Un intero $K$ $(1 < K \leq 10^9)$, il valore di cui Gigino ricorda.
+Un intero $K$, il valore che Gigino ricorda.
 
 ## Output
 Un intero che rappresenta il codice di sblocco dell'armadietto di Gigino.
@@ -20,5 +24,6 @@ Un intero che rappresenta il codice di sblocco dell'armadietto di Gigino.
 
 ----------------
 
-| [Previous](../0/README.md) | [Next](../2/README.md) |
-| ----- | ----- |
+| [**<**](../0/README.md) | [**Home**](../../README.md) | [**>**](../2/README.md) |
+|:-----:|:-----:|:-----:|
+

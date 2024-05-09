@@ -10,6 +10,9 @@ class Solution:
     def solve(K: int, attrezzatture: list[tuple[str, int, int, int]]) -> int:
         """
         Scrivi la tua soluzione qui.
+
+        :param K: costo attrezzo universale
+        :param attrezzatture: lista di tuple (nome, costo, inizio, fine)
         """
         pass
 

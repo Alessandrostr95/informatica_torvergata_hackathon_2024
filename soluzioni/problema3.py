@@ -1,6 +1,5 @@
 import os
 
-
 class Solution:
 
     input_folder = os.path.join("soluzioni", "input", "3")
@@ -10,6 +9,8 @@ class Solution:
     def solve(blueprint: list[str]) -> int:
         """
         Scrivi la tua soluzione qui.
+
+        :param blueprint: blueprint
         """
         pass
 

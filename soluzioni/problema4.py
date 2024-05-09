@@ -10,6 +10,8 @@ class Solution:
     def solve(wall: list[list[int]]) -> int:
         """
         Scrivi la tua soluzione qui.
+
+        :param wall: griglia che rappresenta le macchie di muffa sul muro
         """
         pass
 
@@ -43,3 +45,4 @@ class Solution:
         # load file i-esimo
         with open(os.path.join(Solution.output_folder, files[i]), "r") as f:
             return int(f.read())
+

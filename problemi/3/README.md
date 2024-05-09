@@ -1,9 +1,13 @@
-# Problema 3 (*Gigino il piastrellatore sbadato*)
-Come secondo incarico, viene chiesto a Gigino di **piastrellare** i pavimenti di una nuovissima struttura della macroarea di scienze, l'edificio PP3.
-Per costruire PP3 è stato chiamato un famoso architetto che ha progettato un edificio in stile moderno, con delle forme e geometrie molto particolari.
+# Problema 3 (*Gigino il piastrellista sbadato*)
 
-A Gigino vengono forniti i [blueprints](https://en.wikipedia.org/wiki/Blueprint) del nuovo edificio, che rappresenta la pianta dell'edificio vista dall'alto.
-Il blueprint è una griglia di dimensioni `N x M` in cui ogni cella può contenere il simbolo `.`, il quale rappresenta una cella vuota, oppure uno tra i simboli  `╗═╔║╝╚`, i quali rappresentano i muri dell'edificio.
+| **Difficoltà** | 🔥🔥🔥🔥 |
+|:--------------:|:--------:|
+
+Come secondo incarico, viene chiesto a Gigino di **piastrellare** i pavimenti di una nuovissima struttura della macroarea di scienze, l'edificio PP3.
+Per costruire PP3 è stato chiamato un famoso architetto che ha progettato una serie di difici in stile moderno, con delle forme e geometrie molto particolari.
+
+A Gigino vengono forniti i [blueprints](https://en.wikipedia.org/wiki/Blueprint) dei nuovi edifici, che rappresento la pianta degli edifici visti dall'alto.
+Il blueprint è una griglia di dimensioni $N \times M$ in cui ogni cella può contenere il simbolo `.`, il quale rappresenta una cella vuota, oppure uno tra i simboli  `╗═╔║╝╚`, i quali rappresentano i muri dell'edificio.
 
 Un esempio di blueprint è il seguente:
 ```
@@ -21,7 +25,7 @@ Un esempio di blueprint è il seguente:
 ```
 
 Gigino deve capire quante piastrelle serve comprare per ricoprire il pavimento dell'edificio.
-Dato che ogni piastrella ha dimensioni `1 x 1`, a Gigino servono esattamente 28 piastrelle per ricopripre il pavimento dell'esempio sopra. 
+Dato che ogni piastrella ha dimensioni `1 x 1`, a Gigino servono esattamente `28` piastrelle per ricopripre il pavimento dell'esempio sopra. 
 ```
 ...............
 .╔════╗........
@@ -36,8 +40,8 @@ Dato che ogni piastrella ha dimensioni `1 x 1`, a Gigino servono esattamente 28 
 ..╚══╝....╚═══╝
 ```
 Gigino nota un particolare schema nei muri dell'edificio.
-L'intero perimetro dell'edificio può essere disegnando tracciando una *unica linea continua*, senza mai sollevare la penna dal foglio, e senza mai passare due volte sullo stesso punto, inoltre le linee sono sempre **orizzontali** o **verticali**.
-Perciò, Gigino sa che il perimetro dell'edificio è sempre **chiuso**.
+L'intero perimetro dell'edificio può essere disegnato tracciando una **unica linea continua**, senza mai sollevare la penna dal foglio, e senza mai passare due volte sullo stesso punto, inoltre le linee sono sempre **orizzontali** o **verticali**.
+Inoltre, Gigino sa che il perimetro dell'edificio è sempre **chiuso**.
 
 Purtroppo Gigino è un tipo sbadato, e mentre era sovrappensiero ha scarabocchiato alcuni dei blueprint dell'edificio facendo un bel pasticcio.
 In particolare Gigino ha disegnato delle **linee** che, per fortuna, non hanno modificato il perimetro dell'edificio!
@@ -91,7 +95,7 @@ Ripulendo questo blueprint e cancellando tutte le **linee** che non si chiudono,
 ...................╚═╝.....╚═╝..................
 ................................................
 ```
-A questo punto è possibile calcolare il numero di piastrelle necessarie per ricoprire il pavimento dell'edificio, ovvero 176.
+A questo punto è possibile calcolare il numero di piastrelle necessarie per ricoprire il pavimento dell'edificio, ovvero `176`.
 
 ```
 ................................................
@@ -125,10 +129,11 @@ Aiuta Gigino a calcolare quante piastrelle servono per ricoprire i pavimenti rap
 Una sequenza di `N` righe, ognuna contenente una stringa di `M` caratteri, rappresentante il blueprint dell'edificio.
 
 ## Output
-Il numero esatto di piastrelle necessarie per ricoprire il pavimento dell'edificio rappresentato dal blueprint.
+Il numero esatto di piastrelle necessarie per ricoprire il pavimento dell'edificio rappresentato da quel blueprint.
 
 
 ----------------------
 
-| [Previous](../2/README.md) | [Next](../4/README.md) |
-| ----- | ----- |
+| [**<**](../2/README.md) | [**Home**](../../README.md) | [**>**](../4/README.md) |
+|:-----:|:-----:|:-----:|
+

@@ -1,10 +1,14 @@
 # Problema 5 (*Gigino idraulico*)
+
+| **Difficoltà** | 🔥🔥🔥🔥🔥 |
+|:--------------:|:-----------:|
+
 C'è un problema con il sistema idraulico dell'edificio di Sogene.
 Sogene è un edificio con una forma alquanto longilinea, e l'intero sistema idraulico è connesso ad un unico *lungo* tubo principale.
 Il tubo principale è suddiviso in $N$ nodi adiacenti, numerati da $0$ a $N-1$.
 Ogni nodo controlla la pressione dell'acqua di una intera sezione di Sogene.
-Su ognuno di questi nodi è presente una valvola di sfogo, che può essere aperta per rilasciare la pressione in eccesso.
-Ogni valvola di sfogo $i$ può rilasciare una quantità di pressione pari a $P_i$ al minuto.
+Su ognuno di questi nodi è presente una **valvola di sfogo**, che può essere aperta per rilasciare la pressione in eccesso.
+Ogni valvola di sfogo $i$ può rilasciare una quantità di pressione pari a $P_i$ unità al minuto.
 
 A Gigino viene dato un semplicissimo incarico: quando la pressione dell'acqua di una sezione di Sogene diventa troppo alta, deve aprire la valvola di sfogo della sezione corrispondente per rilasciare la pressione in eccesso.
 Purtroppo però Gigino è il solito pasticcione, e si addormenta durante il lavoro.
@@ -60,9 +64,9 @@ La valvola 0, 1 e 2 sono aperte, sono stati rilasciati 75 unità di pressione fi
 Gigino non fa nulla.
 ```
 
-In questo caso, Gigino ha rilasciato $75$ unità di pressione in $7$ minuti.
-E' possibile vedere che si può fare meglio.
-Per esempio, Gigino avrebbe potuto aprire in ordine le valvole sui nodi 0, 2 e 1, rilasciando $79$ unità di pressione in $7$ minuti.
+In questo caso, Gigino ha aperto in ordine le valvole dei nodi `0`, `1` e `2` rilasciato $75$ unità di pressione in $7$ minuti.
+È possibile vedere che si può fare meglio.
+Per esempio, Gigino avrebbe potuto aprire in ordine le valvole sui nodi `0`, `2` e `1`, rilasciando $79$ unità di pressione in $7$ minuti, anziché $75$.
 
 ```
 === Minuto 0 ===
@@ -98,7 +102,13 @@ La valvola 0, 1 e 2 sono aperte, sono stati rilasciati 79 unità di pressione fi
 Gigino non fa nulla.
 ```
 
-Sapendo che Gigino parte dal nodo $0$ e ha a disposizione $t$ minuti, aiuta Gigino la sequenza di valvole da aprire per rilasciare quanta più pressione possibile entro i prossimi $t$ minuti.
+Sapendo che Gigino parte dal nodo $0$ e ha a disposizione $t$ minuti, aiutalo ad individuare **una** sequenza di valvole da aprire che permetta di rilasciare quante più unità di pressione possibile entro i prossimi $t$ minuti.
+
+
+##### IMPORTANTE
+In questo problema non vi è chiesto di trovare necessariamente la soluzione **ottima**, ma una qualsiasi soluzione **ammissibile**.
+Ovviamente, il punteggio dipenderà dalla qualità della soluzione trovata.
+
 
 ## Input
 Un intero $t$ che rappresenta i minuti a disposizione di Gigino.
@@ -112,5 +122,6 @@ Un array $A$ di $N$ interi, che rappresenta la sequenza di valvole da aprire.
 
 --------------------
 
-| [Previous](../4/README.md) |
-| ------ |
+| [**<**](../4/README.md) | [**Home**](../../README.md) | [**>**](../6/README.md)
+|:------:|:------:|:------:|
+
