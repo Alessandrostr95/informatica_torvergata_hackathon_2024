@@ -26,9 +26,9 @@ Alla fine dell'evento, il team con il punteggio più alto sarà dichiarato vinci
 
 Come primo passo dovrete **clonare** il repository dell'evento sul vostro computer, utilizzando il comando:
 ```bash
-git clone <url>
+git clone https://github.com/Alessandrostr95/informatica_torvergata_hackathon_2024.git
 ```
-Se siete utenti Windows (🐣) o avete timore di usare il terminale, potete scaricare un file `.zip` di questa repository tramite il [link]().
+Se siete utenti Windows (🐣) o avete timore di usare il terminale, potete scaricare un file `.zip` di questa repository, premendo i bottoni `Code->Download ZIP`.
 
 Una volta clonata la repository, troverete le tracce dei problemi nelle rispettive cartelle `problemi/<numero problema>`.
 Ogni cartella contiene un file `README.md` che descrive il problema da risolvere, i vincoli e i dettagli dell'input e dell'output.
