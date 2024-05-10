@@ -3,7 +3,7 @@ Gigino Amatino, un ex-studente di informatica dell'università di Tor Vergata, e
 Dopo un numero incalcolabile di anni fuori corso, i suoi genitori capirono che Gigino non era proprio fatto per lo studio e decisero che era ora di tagliare i cordoni per costringerlo a cercare un lavoro.
 
 
-Il primo impiego di Gigino è un impiego da operaio presso la rinomata "Azienda Veloci Lavorazioni S.p.A.", meglio conosciuta come "AVL S.p.A.".
+Il primo impiego di Gigino è un impiego da operaio presso la rinomata "Azienda Veloci Lavorazioni S.p.A.", meglio conosciuta come "[AVL](https://it.wikipedia.org/wiki/Albero_AVL) S.p.A.".
 Come suggerisce il nome, la AVL è famosa per la sua efficienza ineguagliabile nelle ristrutturazioni.
 E se Gigino vuole scalare le gerarchie aziendali, deve dimostrare di essere altrettanto veloce nel suo lavoro.
 
